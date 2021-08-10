@@ -48,7 +48,7 @@ p {
 .cta {
 	display: inline-block;
 	padding: 10px 30px;
-	color: white;
+	color: black;
 	background-color: transparent;
 	border: 2px solid crimson;
 	font-size: 2rem;
@@ -65,7 +65,7 @@ p {
 .brand h1 {
 	font-size: 3rem;
 	text-transform: uppercase;
-	color: white;
+	color: black;
 }
 .brand h1 span {
 	color: crimson;
@@ -82,7 +82,7 @@ p {
 }
 #header .header {
 	min-height: 8vh;
-	background-color: rgba(31, 30, 30, 0.24);
+	background-color: white;
 	transition: 0.3s ease background-color;
 }
 #header .nav-bar {
@@ -97,7 +97,7 @@ p {
 #header .nav-list ul {
 	list-style: none;
 	position: absolute;
-	background-color: rgb(31, 30, 30);
+	background-color: white;
 	width: 100vw;
 	height: 100vh;
 	left: 100%;
@@ -118,7 +118,7 @@ p {
 	font-weight: 500;
 	letter-spacing: 0.2rem;
 	text-decoration: none;
-	color: white;
+	color: crimson;
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
@@ -129,7 +129,7 @@ p {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0);
-	color: rgba(240, 248, 255, 0.021);
+	color: white;
 	font-size: 13rem;
 	letter-spacing: 50px;
 	z-index: -1;
@@ -140,13 +140,13 @@ p {
 	letter-spacing: initial;
 }
 #header .nav-list ul li:hover a {
-	color: crimson;
+	color: black;
 }
 #header .hamburger {
 	height: 60px;
 	width: 60px;
 	display: inline-block;
-	border: 3px solid white;
+	border: 3px solid crimson;
 	border-radius: 50%;
 	position: relative;
 	display: flex;
@@ -163,14 +163,14 @@ p {
 	height: 100%;
 	width: 100%;
 	border-radius: 50%;
-	border: 3px solid white;
+	border: 3px solid crimson;
 	animation: hamburger_puls 1s ease infinite;
 }
 #header .hamburger .bar {
 	height: 2px;
 	width: 30px;
 	position: relative;
-	background-color: white;
+	background-color: crimson;
 	z-index: -1;
 }
 #header .hamburger .bar::after,
@@ -180,7 +180,7 @@ p {
 	height: 100%;
 	width: 100%;
 	left: 0;
-	background-color: white;
+	background-color: crimson;
 	transition: 0.3s ease;
 	transition-property: top, bottom;
 }
@@ -214,7 +214,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-color: black;
-	opacity: 0.7;
+	opacity: 0;
 	z-index: -1;
 }
 #hero .hero {
@@ -389,7 +389,7 @@ p {
 	height: 100%;
 	width: 100%;
 	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-	opacity: 0.7;
+	opacity: 0;
 }
 #projects .project-img img {
 	transition: 0.3s ease transform;
@@ -535,7 +535,7 @@ p {
 /* Keyframes */
 @keyframes hamburger_puls {
 	0% {
-		opacity: 1;
+		opacity: 0;
 		transform: scale(1);
 	}
 	100% {
@@ -555,7 +555,7 @@ p {
 }
 @keyframes text_reveal {
 	100% {
-		color: white;
+		color: black;
 	}
 }
 @keyframes text_reveal_name {
